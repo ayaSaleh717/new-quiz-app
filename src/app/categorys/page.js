@@ -23,7 +23,7 @@ function CatigoryPage() {
             {types.map((i) => {
               const { id, title, type, question, difficulty, img } = i;
               return (
-                <div className=""nstyle={{flexWrap:'wrap'}}>
+                <div className=""nstyle={{flexWrap:'wrap'}} key={id}>
                 
                   <Link href="/quiz" >
                     <div className="work_card" key={id}    >
