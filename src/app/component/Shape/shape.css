@@ -1,0 +1,88 @@
+.shapes{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.shape{
+    position: absolute;
+}
+
+.s1{
+    left: 2%;
+    top: 10%;
+    color: var( --yellow-color);
+
+}
+
+.s2{
+    left: 18%;
+    top: 10%;
+    color: var( --yellow-color);
+
+}
+
+.s3{
+    left: 5%;
+    bottom: 30%;
+    color: var( --yellow-color);
+
+}
+
+.s4{
+    left: 5%;
+    bottom: 10%;
+    color: var( --yellow-color);
+
+}
+
+.s5{
+    left: 5%;
+    bottom: 10%;
+    color: var( --yellow-color);
+
+}
+
+.s6{
+    left: 36%;
+    bottom: 10%;
+    color: var( --yellow-color);
+
+}
+
+.s7{
+    right: 25%;
+    top: 20%;
+    color: var( --yellow-color);
+}
+
+.s8{
+   right: 24%;
+   bottom: 20%;
+   color: var( --yellow-color);
+}
+
+.s9{
+  right: 2%;
+  top: 10%;
+  color: var( --yellow-color);
+
+}
+
+.s10{
+ top: 45%;
+ right: 11%;
+ color: var( --yellow-color);
+
+}
+
+.s11{
+   bottom: 10%;
+   right: 2%;
+   color: var( --yellow-color);
+   
+   }
+
