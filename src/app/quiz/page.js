@@ -43,7 +43,7 @@ function QuizPage() {
               <button className="btn" style={{}}>
                 next
               </button>
-              <Link href="/categorys">
+              <Link href="/gaveUp">
                 <button className="btn" style={{}}>
                   Gave up
                 </button>

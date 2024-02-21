@@ -1,5 +1,5 @@
 import React from "react";
-import "./header.module.css";
+import "./header.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCoffee,
@@ -22,7 +22,7 @@ function Header() {
         className="mb-2 mb-lg-0 mb-sm-0 d-none d-lg-flex align-items-center pt-2 pb-2 text-white topbar-transparent --bs-primary-rgb tophead"
         style={{
           backgroundColor: "#097bed",
-          boxShadow: "rgba(0, 0, 0, 0.35) 0px 10px 15px",
+          boxShadow: 'rgba(149, 157, 165, 0.2) 0px 8px 24px'
         }}
       >
         <div class="container">
