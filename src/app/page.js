@@ -1,6 +1,7 @@
 // import { Button } from 'bootstrap'
 import Link from 'next/link'
 import React from 'react'
+import './globals.css'
 // import Card from './component/Card/Card'
 
 function HomePage() {

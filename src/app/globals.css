@@ -24,31 +24,9 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
-}
-/* * {
-  box-sizing: border-box;
-  outline: none;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
+  background-color: #FFFDF0;
 }
 
-
-.h1-title{
-  padding: 20px 25px;
-}
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-} */
-
-/* .shap1{
-  width: 50px;
-  height: 50px;
-  background-color: transparent;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;  
-} */
 
 *{
   margin: 0;
@@ -123,6 +101,7 @@ button {
   animation: wiggle 2s linear infinite;
 }
 
+
 /* Keyframes */
 @keyframes wiggle {
   0%, 7% {
@@ -146,4 +125,8 @@ button {
   40%, 100% {
     transform: rotateZ(0);
   }
+}
+
+.main{
+  margin: 50px;
 }

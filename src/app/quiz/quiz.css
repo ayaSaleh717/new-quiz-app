@@ -3,8 +3,20 @@
     justify-content: center;
     align-items: center;
 } */
+
+.quizPage{
+  width: auto;
+  /* background-color: red; */
+
+}
+.q-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20%;
+}
 .quistion{
-    background: linear-gradient(180deg, #097bed, #ffbe00);;
+    background: linear-gradient(180deg, #097bed, #201654);;
     width: 70%;
     height: 500px;
     border-radius: 20px;
@@ -49,12 +61,15 @@
    
   /* } */ 
 .q-question{
-    max-width: -10px;
+    /* max-width: -10px; */
     font-size: 35px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     color: #ffbe00;
      
 }
+
+
+
 .q-num{
     color:var(--paragraph-color) ;
     background-color: #ffbe00;
@@ -65,16 +80,14 @@
     border: 2px solid var(--paragraph-color);
     /* width: 100%; */
     /* background-color: var(--paragraph-color); */
-    margin: 10px;
-    padding: 10px 10px;
+    /* margin: 10px;
+    padding: 10px 10px; */
     /* border-radius: 0% 20% 0% 20%; */
     font-size: 20px;
     color: var(--paragraph-color);
+    position: relative;
     
    
-}
-.opt:hover{
-    border-radius: 0% 0% 0% 0%;
 }
 
 .btn{
@@ -95,15 +108,20 @@
     justify-content: space-between;
     padding: 30px 20px;
   }
+.ul{
+  position: inherit;
+  height: auto;
+  background-color: transparent;
+}
 
-  .ul ul li{
-    display: flex;
-    align-items: center;
-    height: 70px;
+  .ul li{
+    /* align-items: center; */
+    height:50px;
     padding-left: 15px;
     border-radius: 8px;
     margin-bottom: 20px;
     cursor: pointer;
+    color: black;
   }
   .index{
     margin: auto;
@@ -117,4 +135,37 @@
     color: #ffbe00;
     /* color: var(--paragraph-color); */
     border-radius: 0% 0% 0% 0%;
+  }
+  
+
+
+  .timer {
+    animation: timerMov 4s linear infinite;
+    /* animation-delay: 1s; */
+    color: red;
+    font-size: 20px;
+     
+  }
+  @keyframes timerMov{
+  0%{
+    color : #ffbe00;
+    margin-left: 0px;   
+  }
+  25%{
+    margin-left: 20px;   
+    color : rgba(255, 123, 0, 0.439);
+
+  }
+  50%{
+    margin-left: 40px;   
+    color :red; 
+  }
+  70%{
+    margin-left: 20px;   
+    color : rgba(255, 123, 0, 0.439);
+  }
+  100%{
+    color : #ffbe00;
+    margin-left: 0px;   
+    }
   }

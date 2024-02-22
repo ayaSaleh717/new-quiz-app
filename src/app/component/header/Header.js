@@ -2,9 +2,7 @@ import React from "react";
 import "./header.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faCoffee,
-  faMagnifyingGlass,
-  faCircleStop,
+  
   faPhone,
   faClock,
 } from "@fortawesome/free-solid-svg-icons";
@@ -16,7 +14,7 @@ import {
 
 function Header() {
   return (
-    <header className="header">
+    <header className="header" style={{backgroundColor:'#FFFDF0'}}>
       <section
         id="topbar"
         className="mb-2 mb-lg-0 mb-sm-0 d-none d-lg-flex align-items-center pt-2 pb-2 text-white topbar-transparent --bs-primary-rgb tophead"
@@ -71,12 +69,11 @@ function Header() {
       <nav
         class="navbar navbar-expand-lg navbar-light bg-light nav "
         style={{
-          backgroundColor: "#097bed",
           boxShadow: "rgba(0, 0, 0, 0.25) 0px 10px 10px",
           borderRadius: "50% 0%",
         }}
       >
-        <div class="container ">
+        <div class="container " >
           <a class="navbar-brand" href="index.html">
             <h2 class="fw-bold  mb-2 mb-lg-0 mb-sm-0 logo-header"><span style={{
                 color:"#ffbe00"
@@ -98,33 +95,34 @@ function Header() {
             <ul class="navbar-nav m-auto mb-2 mb-lg-0">
               <li class="nav-item"></li>
               <li class="nav-item">
-                <a class="nav-link" href="#about">
+                <a class="nav-link" href="#">
                   About
                 </a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#galary">
+                <a class="nav-link" href="#">
                   Gallery
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#feed">
+                <a class="nav-link" href="#">
                   Feedback
                 </a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#contact">
+                <a class="nav-link" href="#">
                   Contact us
                 </a>
               </li>
-              <li className="nav-item  " style={{ backgroundColor: "#ffbe00" }}>
-                <a className=" nav-link  " href="#contact">
-                  Login
-                </a>
-              </li>
+             
             </ul>
+             <li className="nav-item nav-link " style={{ backgroundColor: "#ffbe00" }}>
+                
+                  Login
+               
+              </li>
           </div>
         </div>
       </nav>

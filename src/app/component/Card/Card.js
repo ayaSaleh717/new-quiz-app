@@ -2,7 +2,7 @@ import React from 'react'
 import { faTurnUp } from "@fortawesome/free-solid-svg-icons";
 import { faQuestion } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import './card.module.css'
+import './card.css'
 function Card(props) {
   return (
    

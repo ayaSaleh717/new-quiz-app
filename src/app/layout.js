@@ -1,5 +1,6 @@
 import "bootstrap/dist/css/bootstrap.css";
-import { Inter } from "next/font/google";
+import './globals.css'
+// import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "./component/header/Header.js";
 import Footer from "./component/footer/Footer";
@@ -8,7 +9,7 @@ import { config } from "@fortawesome/fontawesome-svg-core";
 import Navbar from "./component/Navbar/Navbar";
 config.autoAddCss = false;
 
-const inter = Inter({ subsets: ["latin"] });
+// const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Create Next App",
@@ -18,11 +19,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className=' ' style={{  backgroundColor:'#FFFDF0'}}>
         {/* <Navbar /> */}
         <Header />
-        {children}
-        {/* <Footer /> */}
+        <div className=""> {children}</div>
+       
+        <Footer />
       </body>
     </html>
   );

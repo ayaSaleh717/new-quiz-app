@@ -44,7 +44,7 @@
     position: relative;
     overflow: hidden;
     border-radius: 5%;
-    box-shadow: #ffbe00 0px 2px 10px;
+    box-shadow: rgba(44, 80, 225, 0.622) 0px 2px 10px;
 }
 .work_mask{
     background-color: var(--paragraph-color);
