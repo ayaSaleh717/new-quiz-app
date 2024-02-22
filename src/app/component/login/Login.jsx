@@ -6,8 +6,7 @@ const LoginPage = () => {
 
   const Login = () => {
     // Add login functionality here
-  };
-
+ 
   return (
     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
       <div style={{ width: '300px', padding: '20px', border: '1px solid #ccc', borderRadius: '5px' }}>
@@ -34,5 +33,5 @@ const LoginPage = () => {
     </div>
   );
 };
-
-export default Login;
+}
+export default Login
