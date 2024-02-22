@@ -4,7 +4,8 @@ import Login from '../component/login/Login'
 function LoginPage() {
   return (
     <div>
-      <Login />
+      {/* <Login /> */}
+      login page
     </div>
   )
 }
